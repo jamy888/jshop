@@ -16,9 +16,9 @@
 					<div style="height: 200px;border: 0px solid;">
 						<a href="${basepath}/product/${item.id}.html" target="_blank">
 							
-							<img class="lazy err-product22" style="border: 0px;display: block;margin: auto;max-height: 100%;max-width: 100;"  
+							<img class="lazy err-product22" style="border: 0px;display: block;margin: auto;max-height: 100%;max-width: 100%;"
 							border="0" src="${systemSetting().defaultProductImg!""}"
-							data-original="${systemSetting().imageRootPath!""}/${item.picture!""}">
+							data-original="${systemSetting().imageRootPath!""}${item.picture!""}">
 						</a>
 					</div>
 					<div style="height: 40px;">

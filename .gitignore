@@ -3,3 +3,8 @@
 *.pxt
 *.uxp
 *.uxt
+target/
+.idea/
+*.iml
+.DS_Store
+src/.DS_Store
